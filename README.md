@@ -5,7 +5,7 @@ dumped by an Automated Hematology Analyzer.
 
 ## Getting Started
 
-The main() program read a sequential data on the standard input, waiting for that indefinitely,
+The main() program in the /source file read a sequential data on the standard input, waiting for that indefinitely,
 then decoding and printing the RDW-CV and RDW-SD values. 
  
 ## Running the code
