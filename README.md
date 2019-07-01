@@ -28,7 +28,8 @@ Afeter compiling a .exe file is created, then for run this, execute:
                 main.exe		  
 		   
 Also you could use this commands on Linux. Yo may use g++ the C++ compiler in gcc. 
-Depending on your program, replacing gcc with g++.		 
+Depending on your program, replacing gcc with g++.
+
            g++ main.cpp -o main  
 		   ./main
 
