@@ -2,7 +2,7 @@
 
 Testing decode RDW indices from a communication sequence:
  
- input: inputs.txt, containig various sequence input lines withe the values {"RDW_SD", "MCV", "MCHC", "MCH", "RDW_CV"}
+ input: inputs.txt, containig various sequence input lines with the values {"RDW_SD", "MCV", "MCHC", "MCH", "RDW_CV"}
         with a Carriage Return ("\r") follwed after each value as below: 
 		
         1111\r2222\r3333\r4444\r5555\r
