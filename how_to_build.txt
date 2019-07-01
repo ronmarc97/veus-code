@@ -8,7 +8,7 @@ From the Terminal in Linux
 
    $ sudo apt-get update
 
-2. Install a compiler g++ (if it is not installed):
+2. Install a compiler g++ (if it was not installed):
 
    $ sudo apt-get install g++
 
