@@ -12,4 +12,4 @@ main.o: main.cpp
         $(CC) $(CFLAGS) main.cpp
 
 clean:
-		rm -rf *o output
+	rm -rf *o output
