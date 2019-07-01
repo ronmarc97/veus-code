@@ -1,0 +1,26 @@
+
+Instructions to compile on Linux:
+
+
+From the Terminal in Linux 
+
+1. Update your apt-get:
+
+   $ sudo apt-get update
+
+2. Install a compiler g++ (if it is not installed):
+
+   $ sudo apt-get install g++
+
+3. Set the directory where is the source file main: cd ../
+
+4. Compile your code:
+   
+   $ g++ main.cpp -o output 
+   
+5. Run your program:
+
+   $ ./output
+
+
+To clean up, just remove the build directory.
