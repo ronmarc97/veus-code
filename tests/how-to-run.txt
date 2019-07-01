@@ -1,0 +1,43 @@
+# Test
+
+Testing decode RDW indices from a communication sequence:
+ 
+ input: inputs.txt, containig various sequence input lines in the format {"RDW_SD", "MCV", "MCHC", "MCH", "RDW_CV"}
+        with a Carriage Return ("\r") follwed after each value as below: 
+		
+        1111\r2222\r3333\r4444\r5555\r
+		1122\r2233\r3344\r4455\r5566\r
+		1234\r5678\r8901\r2345\r6789\r
+		9920\r8855\r6677\r2266\r4460\r
+		1478\r2589\r3691\r4785\r5896\r	  
+ 
+ output: the requested information: RDW-CV and RDW-SD values of each sequence input line.
+ 
+         RDWCV=55.5,RDWSD=11.1\r
+         RDWCV=55.6,RDWSD=11.2\r
+		 RDWCV=67.8,RDWSD=12.3\r
+		 RDWCV=44.6,RDWSD=99.2\r
+		 RDWCV=58.9,RDWSD=14.7\r
+ 
+ 
+For Running the code
+
+On Windows, you might use "Visual Studio", "Visual Studio Code" or "JetBrains CLion",
+you can simply compile and run the code.
+
+Using the command prompt: change the directory, using cd to the particular directory where the source file is stored.
+
+Then make use of this for compiling and running:
+
+          g++ -std=c++11 main.cpp -o main
+
+          main.exe		  
+		   
+On Linux:  
+          g++ main.cpp -o output 
+		  ./output
+
+
+
+
+
